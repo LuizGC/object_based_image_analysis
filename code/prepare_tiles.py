@@ -2,8 +2,8 @@ import os
 from osgeo import gdal
 
 SENTINEL_TILES_PATH = 'sentinel-tiles/'
-TILES_PATH = 'tiles/'
-CUTLINE_LAYER_PATH= 'area_train/area.shp'
+TILES_PATH = 'prepared-tiles/'
+CUTLINE_LAYER_PATH= 'area_study/area.shp'
 
 for file in os.listdir(SENTINEL_TILES_PATH):
     if file.endswith(".jp2"):
